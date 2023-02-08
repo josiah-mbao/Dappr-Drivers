@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(209, 202, 202);
+}
+
+.navbar {
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 8fr 1fr 1fr 1fr;
+    position: relative;
+}
+
+.link {
+    padding: 15px;
+    justify-content: end;
+    text-underline-position: above;
+    font-weight: bolder;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+.email {
+    margin: auto;
+    width: 15%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button {
+    margin:auto;
+    width: 8%;
+    display: block;
+    background-color: blanchedalmond;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.icon {
+    color:orange;
+}
+
+
+.fa{
+    font-size: 1150px;
+}
+
+.fa-solid, .fa-thumbs-up {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+iframe {
+    margin: auto;
+    width: 50%;
+    padding-left: 25%;
+    border: none;
+}
+
+.packages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.pbox {
+    border: solid;
+    margin-right: 50px;
+    padding: 15px;
+    width: 300px;
+    background-color: rgb(165, 161, 161);
+    border-radius: 5%;
+}
+
+.pbutton {
+    position: relative;
+    margin-left: 30%;
+    width: 100px;
+}
+
+.p-name {
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.price {
+    font-weight: bolder;
+}
+
+.description {
+    width: 800px;
+}
