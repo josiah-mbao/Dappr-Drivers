@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(209, 202, 202);
+    background-color: rgb(200, 202, 202);
 }
 
 .navbar {
@@ -55,12 +55,13 @@ h1 {
     padding-top: 20px;
     padding-left: 150px;
 }
-
+-
 iframe {
     margin: auto;
     width: 50%;
     padding-left: 25%;
     border: none;
+    border-radius: 100%;
 }
 
 .packages {
